@@ -1,5 +1,4 @@
 import numpy as np 
-
 def create_matrix(mc):
     print("\nARRAY "+str(mc)+" Elements : ")
     array_1 = map(int, input().split())
@@ -15,7 +14,4 @@ def create_matrix(mc):
     print(array_1)
     print("\nRank : ")
     return array_1
-
-
-
 print(np.linalg.matrix_rank(create_matrix(1)))
